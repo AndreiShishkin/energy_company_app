@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link type="text/css" rel="stylesheet" href="css/style.css">
+<title>Главная</title>
+</head>
+<body>
+  <!--Навигация по сайту(верхние 2 блока) -->
+  <header class="header">
+<div class="container">
+  <div class="header_inner">
+    <nav class="nav">
+    <a class="nav_link" href="index.html">Физическим лицам</a>
+    <a class="nav_link" href="">Юридическим лицам</a>
+    <a class="nav_link" href="">Компания</a>
+    <a class="button" href="login_form.html">Личный кабинет</a>
+    </nav>
+    <div class = "logo">
+<div>ВолгоТрансЭнерго
+<p class="number">8-(927)-000-00-00</p></div>
+</div>
+    </div>
+    </div>
+    </header>
+<!--Меню с картинкой -->
+    <div class="intro">
+      <div class="container">
+        <div class="menu">
+          <a class="menu_batton" href="transfer_evidence.html">Передать показания</a>
+          <a class="menu_batton" href="">Способы оплаты</a>
+          <a class="menu_batton" href="rate.html">Тарифы и нормативы</a>
+          <a class="menu_batton" href="documents.html">Образцы документов</a>
+          <a class="menu_batton" href="info.html">Информация для потребителей</a>
+          <a class="menu_batton" href="">Приказы и постановления</a>
+          </div>
+        </div>
+        </div>
+        <div class="container">
+        <div class="image_logo">
+       <div><img src="css/2.jpg" alt="ЛЭП"></div>
+         </div>
+        </div>
+<!--Форма регистрации -->
+        <div class="container">
+<div class="reg_border">
+  <p>Для получения квитанции в электронном виде,<br/>
+    необходимо зарегистрироваться на сайте</p>
+    <a class="reg_button" href="registr_form.html">Зарегистрироваться</a>
+</div>
+        </div>
+<!--Таблица показаний счетчика-->
+        <div class="container">
+          <div class="border_table">
+            <div class="meter_reading_name">
+            <p>Передать показания</p>
+          </div>
+          <div class="table_meter_reading">
+              <form action="meter_reading">
+          <table>
+            <tr>
+           <td>Номер лицевого счета</td>
+           <td>Тип счетчика</td>
+            </tr>
+            <tr>
+              <td><input class="text_box_table" type="text" name="acc_num"></td>
+              <td><select class="text_box_table">
+                <option>Однозонный</option>
+                <option>Двухзонный</option>
+                <option>Трехзонный</option>
+              </select></td>
+            </tr>
+            <tr>
+              <td>Заводской номер счетчика</td>
+            </tr>
+            <tr>
+              <td><input class="text_box_table" type="text" name="counter_num"></td>
+            </tr>
+            <tr>
+              <td>Показания счетчика, кВт*ч</td>
+            </tr>
+            <tr>
+              <td><input class="text_box_table" type="text" name="count_read"></td>
+            </tr>
+          </table>
+          <input type="submit" class="button_send" value="Отправить показания">
+              </form>
+          </div>
+        </div>
+
+        <!-- Таблица тарифов для физ. лиц -->
+          <div class="rate_table">
+         <table>
+<th align="center" colspan="4">Тарифы на электроэнергию, руб. за 1 квт/ч</th>
+<tr>
+<td></td>
+<td align="center">Одноставочный тариф</td>
+<td align="center" colspan="2">Тариф, дифференцированный по двум зонам суток</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+<td align="center">День c 7:00 до 23:00</td>
+<td align="center">Ночь с 23:00 до 7:00</td>
+</tr>
+<tr>
+<td align="center">Для домов и квартир</td>
+<td align="center">4,32</td>
+<td align="center">4,82</td>
+<td align="center">2,37</td>
+</tr>
+<tr>
+<td align="center">Для домов и квартир с электроплитами</td>
+<td align="center">3,02</td>
+<td align="center">3,36</td>
+<td align="center">1,66</td>
+</tr>
+         </table>
+       </div>
+          </div>
+        </div>
+
+ <!-- Копирайт -->
+ <div class="container">
+<div class="copyright">
+<p align="center">© Шишкин Андрей Александрович</p>
+</div>
+ </div>
+  </body>
+  </html>

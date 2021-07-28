@@ -1,0 +1,192 @@
+body{
+  /*font-family: */
+/*  font-size: 20px; */
+  line-height: 1.6;
+  color: #000;
+/*  background: url(../css/1.jpg) center
+  no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  color: #FFFFFF;
+  z-index: -1000;*/
+}
+table {
+    border: 1px solid #ccc;  /* граница всей таблицы */
+    width: 1200px;
+}
+tr {
+    border: 1px solid #ccc;  /* границы между строками */
+}
+td, th {
+    border: 1px solid #ccc;  /* границы между столбцами */
+}
+
+/*Ко всему тексту на странице*/
+.text{
+  font-size: 16px;
+  margin: 0;
+}
+
+/*header*/
+.header{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+/*Контейнер*/
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*Навигация*/
+.nav{
+  max-height: 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 10px;
+  align-items: center;
+}
+/*Личный кабинет*/
+.button{
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  font-size: 17px;
+  color:#fff;
+  border: 1px;
+  width: 170px;
+  height: 20px;
+  border-style: solid;
+  border-color: #000;
+  line-height: 20px;
+  background:#4169E1;
+  text-decoration: none;
+  margin:-25px 0 0 1027px;
+}
+
+/*"nav_link"*/
+.nav_link{
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 10px;
+  color:#B8860B;
+  text-decoration: none;
+  transition: color .2s linear;
+  }
+  .nav_link:hover{
+    color: #000;
+  }
+  /*Картинка*/
+  .logo{
+    border: 2px;
+    border-style: dashed;
+    border-color: #4169E1;
+    border-left: 0;
+    border-right: 0;
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+    margin: 0;
+    align-items: center;
+  }
+  /*Номер телефона*/
+  .number{
+    margin:-48px 0 0 970px
+  }
+
+  /*intro*/
+  .intro{
+    width: 100%;
+    height: 100vh;
+  }
+  /*Меню*/
+  .menu{
+    border: 2px;
+    border-style: solid;
+    border-color: #4169E1;
+    color: #fff;
+    background: #4169E1;
+    font-size: 25px;
+    font-weight: 700;
+    color: #000;
+    margin:100px 0 0 0px
+  }
+  /*Кнопки меню*/
+  .menu_batton{
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: center;
+    margin: 0 3px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    transition: color .2s linear;
+  }
+
+  .menu_batton:after{
+    content: " ";
+    display: inline-block;
+    background-color:#fff;
+    position:absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+  }
+
+  .menu_batton:hover{
+    color:#B8860B;
+  }
+  /*Заголовок*/
+  .h1_style{
+    font-size: 20px;
+    color: #000;
+    transform: translate(+0%, -2800%);
+  }
+  /*Рамка для страницы*/
+    .border_main{
+      position: relative;
+      left: 100%;
+      transform: translate(-100%, -295%);
+      border-color: #A9A9A9;
+      border: 1px;
+      border-style: solid;
+      border-left: 0;
+      border-right: 0;
+      font-size: 30px;
+      font-weight: 700;
+      height: 300px;
+      color: #000;
+      margin: 0;
+      align-items: center;
+    }
+    /*Настройка стиля документов*/
+    .doc_style{
+      font-size: 18px;
+}
+
+/*Текст. Описание документов*/
+.text{
+  font-size: 18px;
+}
+/*Копирайт*/
+.copyright{
+ position: relative;
+ left: 100%;
+ transform: translate(-100%, -860%);
+ font-size: 18px;
+ color: #fff;
+ position: relative;
+ background: #4169E1;
+ border-color: #000;
+ border-width: 3px;
+ height: 100px;
+ width: 1200px;
+ line-height: 100px;
+ }
